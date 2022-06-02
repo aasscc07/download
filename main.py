@@ -4,9 +4,19 @@ import os
 import math
 import hashlib
 import base64
-import pickle
 
 MPath = "folder"
+
+class encryption:
+    FileStr = ""
+    for Path in os.listdir(MPath):
+        pass
+    
+    
+        
+
+class Decryption:
+    pass
 
 Kinput = input("암호화 : E / 복호화 : D\n : ")
 if Kinput == "E":
