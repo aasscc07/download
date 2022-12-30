@@ -1,4 +1,7 @@
 #define _CRT_SECURE_NO_WARNNINGS
+#include<string.h>
+#include<cstdlib>
+#inlcude<cstdio>
 #pragma warning(disable: 4996)
 
 void vulnerableFunction(char* userInput)
