@@ -84,8 +84,7 @@ LoginID = driver.find_element(By.ID,"login_id")
 LoginPW = driver.find_element(By.ID,'login_pwd')
 LoginButton = driver.find_element(By.XPATH,"//*[@class=\'checkbox primary text-primary text-center m-t-md\']/button")
 
-ID = 'asc07'
-PW = 'Seungchan0604!!'
+
 LoginID.send_keys(ID)
 LoginPW.send_keys(PW)
 
